@@ -23,8 +23,8 @@ export default function Home() {
     const backgroundStyle = bg ? { backgroundImage: `url(${CONFIG.API_URL + bg})` } : {};
 
     return (
-        <div className="pb-[50px] min-h-[1000px] h-[100%] bg-cover bg-center bg-no-repeat" style={backgroundStyle}>
-            <div className='absolute min-h-[1000px] h-[100%] z-10 inset-0 bg-[#0000008e]'>
+        <div className="pb-[50px] relative min-h-[1000px] h-[100%] bg-cover bg-center bg-no-repeat" style={backgroundStyle}>
+            <div className='absolute  h-[100%] z-10 inset-0 bg-[#0000008e]'>
 
             </div>
             <div className="Header relative z-20 flex items-center justify-center bg-[#A79684] p-[20px] rounded-b-[30px]">

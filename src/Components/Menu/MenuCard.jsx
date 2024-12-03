@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CONFIG from "../../utils/Config";
 import ReactLoading from 'react-loading';
+import foto from '../../img/images (1).jpg'
 
 
 export default function MenuCard() {
@@ -44,7 +45,7 @@ export default function MenuCard() {
                             <div className="w-full py-[5px] bg-[#A79684] rounded-t-[10px] h-[30px] text-center">
                                 {i?.new === true && <span>Янгилик</span>}
                             </div>
-                            <img src={CONFIG.API_URL + i?.image} alt="foto" className=" h-[300px] object-cover rounded-b-[10px]" />
+                            <img src={CONFIG.API_URL + i?.image} alt={foto} className="  object-cover rounded-b-[10px]" />
                             <div className="w-full pt-[10px]">
                                 <h2 className="text-[30px] font-[800] text-center">
                                     {i?.name}
