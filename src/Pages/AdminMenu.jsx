@@ -80,6 +80,7 @@ export default function AdminMenu() {
                                 <tr className="border-b">
                                     <th className="py-2 px-4 text-left">Rasm</th>
                                     <th className="py-2 px-4 text-left">Turkum</th>
+                                    <th className="py-2 px-4 text-left">Raqami</th>
                                     <th className="py-2 px-4 text-left">Name</th>
                                     <th className="py-2 px-4 text-left">Narx</th>
                                     <th className="py-2 px-4 text-left">Chegirma</th>
@@ -97,6 +98,7 @@ export default function AdminMenu() {
                                         </td>
                                         <td className="py-2 px-4">{item.name}</td>
                                         <td className="py-2 px-4">{item.category.name}</td>
+                                        <td className="py-2 px-4">{item.sort}</td>
                                         <td className="py-2 px-4">
                                             {item.price  ? Number(item.price).toLocaleString('ru-RU') : 'N/A'}  uzs
                                         </td>

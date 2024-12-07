@@ -164,7 +164,7 @@ const MenuCreate = ({ isOpen, onClose, refresh }) => {
             <div onClick={(e) => e.stopPropagation()} className={`Modal2Content ${isOpen ? "open" : ""} overflow-y-auto`}>
                 <div className="p-6 pb-12 bg-white rounded-lg mx-auto">
                     <div className="flex items-center justify-between mb-4">
-                        <h2 className="text-xl font-semibold text-black">Turkum yaratish</h2>
+                        <h2 className="text-xl font-semibold text-black">Menu yaratish</h2>
                         <button onClick={onClose} className="text-gray-600">
                             <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 14">
                                 <path
